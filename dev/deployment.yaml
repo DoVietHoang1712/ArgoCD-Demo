@@ -23,7 +23,7 @@ metadata:
   name: nginx
 spec:
   selector:
-    app: nginx
+    app: hoang1712/nginx:1.0.3
   ports:
   - port: 80
     targetPort: 80
